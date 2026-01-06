@@ -32,5 +32,4 @@ spec:
               curl -s http://todoapp.todoapp.svc.cluster.local || echo "Service not reachable";
               sleep 5
             done
-        ports:
-        - containerPort: 80
+
